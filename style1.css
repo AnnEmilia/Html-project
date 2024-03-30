@@ -1,0 +1,88 @@
+
+body{
+    height: 10000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(189, 194, 211);
+}
+  .cover {
+    position: relative;
+    height: 650px; 
+  }
+  
+  .home_page{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #9e97d9;
+    height: 25px;
+    align-items: center;
+
+  }
+
+  .about{
+    position: fixed;
+    top: 0;
+    right: 10px;
+    z-index: 1;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .code {
+    position: fixed;
+    top: 0;
+    right: 80px;
+    z-index: 1;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .Slide {
+    position: fixed;
+    top: 0;
+    right: 140px;
+    z-index: 1;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .content {
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(91, 98, 190);
+  }
+  .name{
+    position: relative;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+  }
+
+  .status{
+    position: relative;
+    color: rgb(129, 111, 111);
+    font-family: cursive;
+    font-size: 18px;
+    
+  }
+  .To-continue {
+    position: absolute;
+    font-family: Monaco;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3897af;
+    border: none;
+    border-radius: 15px;
+    color: rgb(229, 245, 238);
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+
+}
